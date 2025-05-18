@@ -1,4 +1,0 @@
-deskripsi_status
-Aman: Harga <= HET
-Waspada: Harga > HET (0 - 5%)
-Intervensi: Harga > HET (> 5%)
