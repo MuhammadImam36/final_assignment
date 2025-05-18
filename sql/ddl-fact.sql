@@ -1,0 +1,22 @@
+-- DROP TABLE IF EXISTS staging.data_harian;
+-- CREATE TABLE staging.data_harian (
+--     date DATE,
+--     id_provinsi INTEGER,
+--     id_komoditas INTEGER,
+--     harga_rata_rata INTEGER,
+--     het INTEGER,
+--     disparitas_het DOUBLE PRECISION,
+--     status VARCHAR(255)
+-- );
+
+DROP TABLE IF EXISTS public.fact_harga_harian;
+-- CREATE TABLE public.fact_harga_harian (
+--     id_harga_harian SERIAL PRIMARY KEY,
+--     id_date INTEGER REFERENCES public.dim_date(id_date),
+--     id_komoditas INTEGER REFERENCES public.dim_komoditas(id_komoditas),
+--     id_provinsi INTEGER REFERENCES public.dim_provinsi(id_provinsi),
+--     id_status INTEGER REFERENCES public.dim_status(id_status),
+--     harga_rata_rata INTEGER,
+--     het INTEGER,
+--     disparitas_het FLOAT
+-- );
